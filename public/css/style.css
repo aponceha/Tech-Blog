@@ -1,9 +1,9 @@
 :root {
-  --primary: #ccdad1;
-  --secondary: #9caea9;
-  --tertiary: #788585;
-  --light-dark: #6f6866;
-  --dark: #38302e;
+  --primary: rgb(58, 16, 58);
+  --secondary: #042f80;
+  --tertiary: #a1ecec;
+  --light-dark: #6b769c;
+  --dark: #dfd1cd;
   --border-radius: 0.3rem;
 }
 
@@ -29,16 +29,13 @@ h5,
 h6 {
   font-weight: 700;
   margin: 0;
-  color: var(--dark);
+  color: rgb(173, 221, 201);
   line-height: 1.25;
 }
 
-h2 a:visited {
-  color: var(--tertiary);
-}
 
 h2 a {
-  color: var(--primary);
+  color: blueviolet;
 }
 
 header {
@@ -56,6 +53,9 @@ a {
 
 p {
   font-size: 1.2rem;
+}
+.text {
+  color:rgb(133, 21, 133);
 }
 
 input {
@@ -88,7 +88,7 @@ input {
 
 .btn:hover {
   color: var(--primary);
-  background-color: var(--tertiary);
+  background-color: blueviolet;
   transform: translate(0, 0);
   box-shadow: 2px 2px var(--dark);
 }
@@ -104,7 +104,7 @@ input {
 .navbar {
   width: 100%;
   position: fixed;
-  background-color: var(--dark);
+  background-color: rgb(133, 21, 133);
 }
 
 .nav-item {
@@ -112,13 +112,13 @@ input {
 }
 
 .nav-item a {
-  color: var(--primary);
+  color: rgb(191, 201, 198);
 }
 
 .hero {
   padding: 3% 4%;
-  background-color: var(--dark);
-  color: var(--primary);
+  background-color: rgb(133, 21, 133);
+  color: rgb(191, 201, 198);
 }
 
 .hero p {
@@ -127,8 +127,8 @@ input {
 
 .app-title {
   font-size: 3rem;
-  background-color: var(--primary);
-  color: var(--dark);
+  background-color: rgb(47, 146, 212);
+  color: rgb(191, 201, 198);
   padding: 0 10px;
   display: inline-block;
   border-radius: var(--border-radius);
@@ -141,19 +141,20 @@ input {
 
 .list-group {
   padding: 1%;
+  color:rgb(173, 221, 201)
 }
 
 .list-item {
   margin-bottom: 10px;
   padding: 1.5%;
   border-radius: var(--border-radius);
-  background-color: var(--light-dark);
+  background-color: rgb(3, 32, 20);
   color: var(--primary);
   text-decoration: none;
 }
 
 .list-item:hover {
-  background-color: var(--dark);
+  background-color: royalblue;
 }
 
 .footer a {
@@ -175,7 +176,7 @@ input {
 
 .card-header {
   color: var(--primary);
-  background-color: var(--dark);
+  background-color: rgb(255, 255, 255);
   padding: 1%;
   border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
 }
